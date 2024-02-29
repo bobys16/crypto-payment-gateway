@@ -1,0 +1,23 @@
+{
+  "name": "lessmore92/php-erc20",
+  "description": "This library provides simple way to interact with Ethereum ERC20 token.",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Lessmore92",
+      "email": "bahramisoft@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Lessmore92\\Ethereum\\": "src"
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.1",
+    "sc0vu/web3.php": "0.1.4",
+    "web3p/ethereum-util": "0.1.2",
+    "kornrunner/ethereum-offline-raw-tx": "0.2.4"
+  }
+}

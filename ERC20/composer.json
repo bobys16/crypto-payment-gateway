@@ -1,0 +1,6 @@
+{
+    "require": {
+        "lessmore92/php-erc20": "^1.0",
+        "kornrunner/ethereum-address": "^0.1.0"
+    }
+}
